@@ -1,0 +1,4 @@
+- name: Install uv
+  uses: astral-sh/setup-uv@v5
+  with:
+    cache-dependency-glob: '**/requirements*.txt'  # This will help cache dependencies listed in requirements.txt
